@@ -1,0 +1,362 @@
+body{
+	padding: 15px;
+	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Aleo', serif;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
+
+/* Layout */
+
+.hero{
+	height: 820px;
+	background: url("../images/mounts.png") center center no-repeat;
+	text-align: center;
+	background-size: cover;
+	position: relative;
+}
+.heroMain{
+	padding-top: 265px;
+}
+.heroTitle{
+	font-size: 48px;
+	font-weight: 700;
+	letter-spacing: 5px;
+	color: #fff;
+	margin: 0;
+}
+.heroSubtitle{
+	font-size: 22px;
+	letter-spacing: 6px;
+	color: #fff;
+	padding-top: 5px;
+}
+.heroMain form{
+	background: #fff;
+	width: 650px;
+	height: 60px;
+	margin-left: 430px;
+	margin-top: 55px;
+}
+.heroMain input{
+	background: #fff;
+	width: 490px;
+	height: 60px;
+	border: none;
+	padding-left:100px;
+	/* margin: 0; */
+}
+.heroMain button{
+	background: #5474fd;
+	border: none;
+	width: 150px;
+	height: 56px;
+	color: #fff;
+}
+.scroll{
+
+	color: #fff;
+
+	position: absolute;
+	bottom: 200px;
+	left: calc(50% - 71px);
+	letter-spacing: 5px;
+}
+.scroll img{
+	padding-top: 10px;
+}
+.feik-header{
+	height: 80px;
+	background: #5474FD;
+
+}
+.feik-header{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+.logo{
+	font-size: 24px;
+	font-weight: 700;
+	display: flex;
+	align-items: center;
+	color: #fff;
+	justify-content: center;
+}
+.feik-headerMenu{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-left: 30px;
+	padding-right: 200px;
+	font-size: 14px;
+	color: #fff;
+}
+.chooseUs{
+	height: 685px;
+	background: url("../images/choose.png") center center no-repeat;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+.chooseText{
+	width: 540px;
+	margin-top:205px;
+	margin-left: 190px;
+}
+.chooseText h3{
+	font-size: 36px;
+	color: #fff;
+}
+.choseUsTitle{
+	font-size: 16px;
+	color: #fff;
+	padding-top: 65px;
+	font-weight: 300;
+	letter-spacing: 0,1em;
+}
+.chooseUs a{
+	width: 225px;
+	background: #5474fd;
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	display: block;
+	padding-top: 20px;
+	padding-left: 40px;
+	padding-bottom: 20px;
+	margin-top: 45px;
+}
+.chooseimg1{
+	background: url("../images/chooseimg1.png") center center no-repeat;
+	width: 350px;
+	height: 220px;
+	margin-left: 70px;
+	margin-top: 120px; 
+}
+.chooseimg2{
+	background: url("../images/chooseimg2.png") center center no-repeat;
+	width: 350px;
+	height: 220px;
+	margin-left: 195px;
+	margin-top: 5px;
+}
+
+
+.placesItems{
+	background: #333333;
+	height: 338px;
+
+}
+.placesBox{
+	width: 1110px;
+	padding-left: 200px;
+	color: #fff;
+	text-align: center;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 165px;
+
+}
+.placesItem1, .placesItem2, .placesItem3 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-top: 100px;
+	font-size: 36px;
+	width: 220px;
+}
+.spain1{
+	height: 700px;
+	background: url("../images/hotel.png") center center no-repeat;
+	position: relative;
+}
+.boxSpain1{
+	width: 540px;
+	height: 370px;
+	background: url("../images/Rectangle1.png") center center no-repeat;
+
+	position: absolute;
+	margin-top: 230px;
+	margin-left: 200px;
+	padding-top: 50px;
+	padding-left: 30px;
+
+
+}
+.spain1Title{
+	color: #fff;
+	font-size: 20px;
+	font-weight: 300;
+}
+.spain1Subtitle{
+	color: #fff;
+	font-size: 20px;
+	font-weight: 300;
+	padding-top: 33px;
+}
+.spain1Text{
+	color: #fff;
+	font-size: 14px;
+	font-weight: 300;
+	padding-top: 33px;
+	letter-spacing: 0,075em;
+	line-height: 24px;
+}
+.spain1 a{
+	width: 225px;
+	background: #5474fd;
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	display: block;
+	padding-top: 20px;
+	padding-left: 60px;
+	padding-bottom: 20px;
+	margin-top: 45px;
+}
+/* spain2 */
+.spain2{
+	height: 700px;
+	background: url("../images/spain2.png") center center no-repeat;
+	position: relative;
+}
+.boxSpain2{
+	width: 540px;
+	height: 370px;
+	background: url("../images/Rectangle2.png") center center no-repeat;
+
+	position: absolute;
+	margin-top: 230px;
+	margin-left: 750px;
+	padding-top: 50px;
+	padding-left: 30px;
+
+
+}
+.spain2Title{
+	color: #fff;
+	font-size: 20px;
+	font-weight: 300;
+}
+.spain2Subtitle{
+	color: #fff;
+	font-size: 20px;
+	font-weight: 300;
+	padding-top: 33px;
+}
+.spain2Text{
+	color: #fff;
+	font-size: 14px;
+	font-weight: 300;
+	padding-top: 33px;
+	letter-spacing: 0,075em;
+	line-height: 24px;
+}
+.spain2 a{
+	width: 225px;
+	background: #5474fd;
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	display: block;
+	padding-top: 20px;
+	padding-left: 60px;
+	padding-bottom: 20px;
+	margin-top: 45px;
+}
+.turist{
+	background: url("../images/turist.png") center center no-repeat;
+	height: 730px;
+	position: relative;
+
+}
+.turistTitle{
+	text-align:center;
+	padding-top: 120px;
+	font-size: 36px;
+	color: #fff;
+	font-weight: 300;
+}
+.sumon{
+	width: 1110px;
+	height: 285px;
+	position: absolute;
+ 	display: grid;
+ 	grid-template-columns: 445px 665px;
+ 	margin-left: 185px;
+ 	margin-top: 90px;
+}
+.sumonItem{
+	 background-size: cover;
+	 width: 445px;
+	 height: 284px;
+
+}
+.sumonText{
+	background: url("../images/turist2.png") center center no-repeat;
+	width: 655px;
+	height: 284px;
+	padding-top: 50px;
+	padding-left: 50px;
+}
+.samSumon{
+	font-size: 20px;
+	font-weight: 300;
+	color: #fff;
+}
+.sumonText1{
+	padding-right: 35px;
+	padding-top: 35px;
+	font-size: 16px;
+	font-weight: 300;
+	color: #fff;
+}
